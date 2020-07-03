@@ -6,7 +6,7 @@
 ./design/mobile-design.jpg
 )
 
-## Welcome! 👋
+## Purpose
 
 This front-end coding challenge is to help improve our skills in a real-life workflow.
 
