@@ -9,6 +9,84 @@
 
 /* HEADER SECTION */
 
+/*main*/
+
+.card-section {
+	display: flex;
+	width: 87%;
+	margin: auto;
+	border: 1px solid #f2f2f2;
+	border-radius: 10px;
+	box-shadow: -1px -1px 15px 2px #f2f2f2;
+}
+
+.card-section h3{
+	font-family: Poppins;
+	font-weight: bold;
+	color: #00252e;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.card-section p {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: bold;
+	color: #808d99;
+	line-height: 24px;
+	letter-spacing: 0.2px
+}
+
+.card-section img {
+	width: 34%;
+}
+
+.grow-card {
+	margin-top: 100px;
+	padding: 50px 30px 70px 0px;
+}
+
+.grow-text {
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+.grow-text p {
+	width: 65%;
+}
+
+.flowing-card {
+	margin-top: 40px;
+	padding: 50px 30px 70px 0px;
+}
+
+.flowing-card img {
+	margin-left: 100px;
+}
+
+.flowing-text {
+	margin-left: 14%;
+	margin-top: 80px;
+}
+
+.flowing-text p {
+	width: 92%;
+}
+
+.users-card {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 50px 30px 70px 0px;
+}
+
+.users-text {
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+.users-text p {
+	width: 68%;
+}
 
 /* GROW TOGETHER SECTION */
 
