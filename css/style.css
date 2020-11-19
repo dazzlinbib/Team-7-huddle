@@ -5,21 +5,273 @@
 	box-sizing: border-box;
 }
 
+body {
+	background: #fff;
+}
 /* See color guide at the bottom*/
 
 /* HEADER SECTION */
 
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+}
+.flex-wrapper{
+	display:flex;
+	flex-flow:row nowrap;
+	margin:0;
+	width:100%;
+}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
 
-/* GROW TOGETHER SECTION */
+header{
+	background-color: #ebfbff;
+	background-image: url("../images/bg-hero-desktop.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:100%;
+	min-height: 400px;
+}
+nav.nav.col-4 ul {
+    display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+a.menu-btn {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 30px;
+    outline: none;
+    color: #171717;
+    font-family: Poppins;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 14px;
+    background: #fff;
+    display: inline-block;
+    width: 170px;
+    text-decoration: none;
+}
+.flex-wrapper.header-nav {
+    justify-content: space-between;
+}
+.header-content .button.btn {
+    display: inline-block;
+    background-color: #ff52bf;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    border-radius: 30px;
+    outline: none;
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 14px;
+    width: 250px;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.desktop-svg {
+	max-width: 100%;
+}
 
 
-/* FLOWING CONVERSATION SECTION */
+/*main*/
 
+.card-section {
+	display: flex;
+	width: 87%;
+	margin: auto;
+	border: 1px solid #f2f2f2;
+	border-radius: 10px;
+	box-shadow: -1px -1px 15px 2px #f2f2f2;
+}
 
-/* YOUR USERS SECTION */
+.card-section h3{
+	font-family: Poppins;
+	font-weight: bold;
+	color: #00252e;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
 
+.card-section p {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: bold;
+	color: #808d99;
+	line-height: 24px;
+	letter-spacing: 0.2px
+}
+
+.card-section img {
+	width: 34%;
+}
+
+.grow-card {
+	margin-top: 100px;
+	padding: 50px 30px 70px 0px;
+}
+
+.grow-text {
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+.grow-text p {
+	width: 65%;
+}
+
+.flowing-card {
+	margin-top: 40px;
+	padding: 50px 30px 70px 0px;
+}
+
+.flowing-card img {
+	margin-left: 100px;
+}
+
+.flowing-text {
+	margin-left: 14%;
+	margin-top: 80px;
+}
+
+.flowing-text p {
+	width: 92%;
+}
+
+.users-card {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 50px 30px 70px 0px;
+}
+
+.users-text {
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+.users-text p {
+	width: 68%;
+}
 /* FOOTER SECTION */
+footer {
+	margin-top: 16em;
+	background: #00252e;
+	padding: 1em;
+}
 
+footer h2 {
+   font-family: poppins;
+}
+
+.community {
+	background: #fff;
+	text-align: center;
+	position: relative;
+	bottom: 8em;
+	border-radius: 25px;
+	box-shadow: 0 0 4px #333;
+	padding: 4em 0;
+}
+
+.community h2 {
+	margin-bottom: 2em;
+	font-weight: 600px;
+}
+
+.community a {
+	text-decoration: none;
+	font-family: 'open sans';
+	font-weight: 700px;
+   padding: 1em 3em;
+   background: #ff52bf;
+   color: #fff;
+   border-radius: 25px;
+   box-shadow: 0 0 4px #333;
+}
+
+.contact_details {
+	color: #fff;
+}
+
+.contact_details h2 {
+	display: inline;
+}
+
+footer  svg{
+   display: block;
+}
+
+.contact_details p,
+address {
+	display: block;
+	margin-left: 1em;
+	font-family: open sans;
+	font-weight: 700px;
+}
+
+.icon_flex {
+	display: flex;
+	margin: 2em 0;
+}
+
+.icon_flex i {
+	font-size: 22px;
+}
+
+.icon_flex:nth-child(3n+1) i {
+	align-self: flex-end;
+}
+
+div[class*=menu] {
+	display: flex;
+	flex-direction: column;
+	font-family: open sans;
+	font-weight: 700px;
+	font-size: 22px;
+}
+
+div[class*=menu] a {
+	text-decoration: none;
+	color: #fff;
+	margin-bottom: 1em;
+}
+
+.social {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
+
+.social i {
+	font-size: 30px;
+	margin: 1em 0.5em;
+}
+
+.footer_bottom {
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-family: open sans;
+}
 
 /*Colors*/
 
