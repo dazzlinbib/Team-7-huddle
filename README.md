@@ -11,4 +11,7 @@ This front-end coding challenge is to help improve our skills in a real-life wor
 ## Resources
 VS code live share
 
+## Contributions
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 A massive thank you to our community sponsors!
